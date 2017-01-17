@@ -1,0 +1,37 @@
+{
+  "name": "@electron-react/material",
+  "version": "0.1.0",
+  "description": "Material components for React with Electron support",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron-react/material.git"
+  },
+  "keywords": [
+    "material",
+    "ui",
+    "pattern",
+    "library",
+    "react",
+    "component",
+    "electron",
+    "js"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electron-react/material/issues"
+  },
+  "homepage": "https://github.com/electron-react/material#readme",
+  "dependencies": {
+    "ramda": "^0.23.0",
+    "styled-components": "^1.3.0"
+  },
+  "devDependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
