@@ -1,0 +1,36 @@
+{
+  "plugins": [
+    "transform-inline-consecutive-adds",
+    "minify-dead-code-elimination",
+    "transform-node-env-inline",
+    "transform-regexp-constructors"
+  ],
+  "presets": [
+    "es2016",
+    "es2017",
+    "react"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-react-constant-elements",
+        "minify-empty-function",
+        "minify-guarded-expressions",
+        "minify-numeric-literals",
+        "transform-remove-console",
+        "transform-remove-debugger",
+        "transform-react-inline-elements"
+      ],
+      "presets": [
+        "es2015",
+      ]
+    },
+    "development": {
+      "plugins": [
+      ],
+      "presets": [
+        ["es2015", { "modules": false }],
+      ]
+    }
+  }
+}
