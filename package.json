@@ -2,7 +2,7 @@
   "name": "@electron-react/material",
   "version": "0.1.0",
   "description": "Material components for React with Electron support",
-  "main": "dist/index.js",
+  "main": "./dist/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel -d ./dist ./lib"
@@ -21,7 +21,12 @@
     "electron",
     "js"
   ],
-  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "author": {
+    "name": "Sergey Sova",
+    "email": "i.am@lestad.net",
+    "url": "https://lestad.top"
+  },
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/electron-react/material/issues"
